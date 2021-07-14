@@ -4,10 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Perfect Pizza</title>
 </head>
 <body>
+
+<style>
+    body {
+    background-color: lightslategray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.small {
+    background-color: seagreen;
+    padding: 1em;
+    border-radius: 1em;
+    margin: 0.5em;
+    text-align: center;
+}
+
+.medium {
+    background-color: rgb(11, 102, 15);
+    padding: 1em;
+    border-radius: 1em;
+    margin: 0.5em;
+    text-align: center;
+}
+
+.large {
+    background-color: rgb(133, 238, 14);
+    padding: 1em;
+    border-radius: 1em;
+    margin: 0.5em;
+    text-align: center;
+}
+
+.content {
+    display: inline;
+}
+
+.content img {
+    border-radius: 45%;
+}
+
+.footer {
+    background-color: sienna;
+    padding: 1em;
+    border-radius: 1em;
+    margin: 0.5em;
+    text-align: center;
+}
+
+@media (min-width: 960px) {
+    .content {
+        display: inline-flex;
+    }
+}
+</style>
+
 <div class="container">
     <div class="header">
         <h1>Perfect Pizza</h1>
